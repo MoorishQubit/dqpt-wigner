@@ -1,0 +1,12 @@
+{
+  "run_id": "dt000125_chi256",
+  "complete": true,
+  "start_tau": 0.0,
+  "last_tau": 0.6399999999999919,
+  "elapsed_seconds_this_invocation": 6.249336837005103,
+  "actual_bonds": [
+    72,
+    74
+  ],
+  "analysis_elapsed_seconds": 1.3314852369949222
+}

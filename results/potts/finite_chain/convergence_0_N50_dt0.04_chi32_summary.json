@@ -1,0 +1,13 @@
+{
+  "label": "convergence_0_N50_dt0.04_chi32",
+  "n_sites": 50,
+  "dt": 0.04,
+  "max_bond": 32,
+  "cutoff": 1e-09,
+  "individual_crossing": 0.6136279755576358,
+  "grouped_crossing": 0.6068896694285886,
+  "maximum_symmetry_relative_error": 5.542800465864311e-13,
+  "maximum_norm_error": 2.4868995751603507e-14,
+  "maximum_cumulative_discarded_weight": 1.4130080114391273e-13,
+  "trajectory": "convergence_0_N50_dt0.04_chi32_trajectory.csv"
+}

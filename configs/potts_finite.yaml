@@ -1,0 +1,86 @@
+output_dir: build/reproduction/potts/finite_chain
+seed: 1729
+model:
+  J: 1.0
+  final_field: 1.5
+  boundary: open
+  initial_symbol: 0
+primary:
+  sizes:
+  - 20
+  - 50
+  - 75
+  - 100
+  tmax: 0.76
+  dt: 0.02
+  max_bond: 48
+  cutoff: 1.0e-10
+convergence_cases:
+- n_sites: 50
+  dt: 0.04
+  max_bond: 32
+  cutoff: 1.0e-09
+- n_sites: 50
+  dt: 0.02
+  max_bond: 32
+  cutoff: 1.0e-09
+- n_sites: 50
+  dt: 0.04
+  max_bond: 48
+  cutoff: 1.0e-10
+- n_sites: 100
+  dt: 0.04
+  max_bond: 32
+  cutoff: 1.0e-09
+- n_sites: 100
+  dt: 0.02
+  max_bond: 32
+  cutoff: 1.0e-09
+- n_sites: 100
+  dt: 0.04
+  max_bond: 48
+  cutoff: 1.0e-10
+block_hierarchy:
+  sizes:
+  - 50
+  - 100
+  block_lengths:
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  probe_time_min: 0.34
+  probe_time_max: 0.7
+  probe_count: 19
+  dt: 0.02
+  max_bond: 32
+  cutoff: 1.0e-09
+  contract_all_competing_branches: true
+  minimum_fit_block: 4
+fits:
+  global_degrees:
+  - 1
+  - 2
+  block_degrees:
+  - 1
+  - 2
+  minimum_global_size: 20
+claim_gates:
+  required_maximum_size: 100
+  maximum_dt_crossing_shift: 0.006
+  maximum_bond_crossing_shift: 0.006
+  maximum_bulk_size_shift_difference: 0.03
+  minimum_largest_block_sign_shift: 0.05
+  minimum_competing_sign_cost_at_crossing: 0.03
+  maximum_branch_symmetry_relative_error: 0.005
+  maximum_decomposition_error: 1.0e-08
+  maximum_norm_error: 1.0e-06
+plots:
+  enabled: true
+  formats:
+  - png
+  - pdf
+  dpi: 300
+  requested_font: Times New Roman

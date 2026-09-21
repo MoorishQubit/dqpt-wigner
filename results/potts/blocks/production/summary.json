@@ -1,0 +1,330 @@
+{
+  "number_of_blocks": 26,
+  "sizes": [
+    50,
+    100
+  ],
+  "block_lengths": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "maximum_norm_error": 7.960299086562372e-14,
+  "maximum_event_rate_residual": 6.532014928950503e-10,
+  "maximum_projector_vs_wigner_error": 1.6653345369377348e-16,
+  "maximum_sector_unsigned_relative_error": 1.0895043121608384e-14,
+  "code_unchanged_during_run": true,
+  "fits": [
+    {
+      "n_sites": 50,
+      "observable": "critical_time_shift",
+      "degree": 1,
+      "minimum_block_length": 4,
+      "maximum_block_length": 16,
+      "intercept": 0.12773588537153144,
+      "coefficients_descending": [
+        0.12799241911705245,
+        0.12773588537153144
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "critical_time_shift",
+      "degree": 1,
+      "minimum_block_length": 5,
+      "maximum_block_length": 16,
+      "intercept": 0.12491805620541054,
+      "coefficients_descending": [
+        0.15731547854507472,
+        0.12491805620541054
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "critical_time_shift",
+      "degree": 1,
+      "minimum_block_length": 6,
+      "maximum_block_length": 16,
+      "intercept": 0.1224843042238267,
+      "coefficients_descending": [
+        0.18449154380809132,
+        0.1224843042238267
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "critical_time_shift",
+      "degree": 2,
+      "minimum_block_length": 4,
+      "maximum_block_length": 16,
+      "intercept": 0.11404715010824298,
+      "coefficients_descending": [
+        -0.7509547736769863,
+        0.3513310734993939,
+        0.11404715010824298
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "critical_time_shift",
+      "degree": 2,
+      "minimum_block_length": 5,
+      "maximum_block_length": 16,
+      "intercept": 0.1112210787309781,
+      "coefficients_descending": [
+        -0.9797465956044595,
+        0.4053845313918629,
+        0.1112210787309781
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "critical_time_shift",
+      "degree": 2,
+      "minimum_block_length": 6,
+      "maximum_block_length": 16,
+      "intercept": 0.10974936937354055,
+      "coefficients_descending": [
+        -1.1254086131861185,
+        0.43596052409419345,
+        0.10974936937354055
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 1,
+      "minimum_block_length": 4,
+      "maximum_block_length": 16,
+      "intercept": 0.09473419922284754,
+      "coefficients_descending": [
+        0.34425008509008637,
+        0.09473419922284754
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 1,
+      "minimum_block_length": 5,
+      "maximum_block_length": 16,
+      "intercept": 0.09536748683024977,
+      "coefficients_descending": [
+        0.33765993038157804,
+        0.09536748683024977
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 1,
+      "minimum_block_length": 6,
+      "maximum_block_length": 16,
+      "intercept": 0.09668156091149131,
+      "coefficients_descending": [
+        0.32298655229601814,
+        0.09668156091149131
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 2,
+      "minimum_block_length": 4,
+      "maximum_block_length": 16,
+      "intercept": 0.09877940443379689,
+      "coefficients_descending": [
+        0.22191722648127718,
+        0.27825051163520215,
+        0.09877940443379689
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 2,
+      "minimum_block_length": 5,
+      "maximum_block_length": 16,
+      "intercept": 0.1011276274031149,
+      "coefficients_descending": [
+        0.412023610829646,
+        0.23333672339358938,
+        0.1011276274031149
+      ]
+    },
+    {
+      "n_sites": 50,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 2,
+      "minimum_block_length": 6,
+      "maximum_block_length": 16,
+      "intercept": 0.09932465037314814,
+      "coefficients_descending": [
+        0.2335744690129532,
+        0.27079507903435035,
+        0.09932465037314814
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "critical_time_shift",
+      "degree": 1,
+      "minimum_block_length": 4,
+      "maximum_block_length": 16,
+      "intercept": 0.12773588533433514,
+      "coefficients_descending": [
+        0.1279924194375369,
+        0.12773588533433514
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "critical_time_shift",
+      "degree": 1,
+      "minimum_block_length": 5,
+      "maximum_block_length": 16,
+      "intercept": 0.1249180562123757,
+      "coefficients_descending": [
+        0.15731547840600396,
+        0.1249180562123757
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "critical_time_shift",
+      "degree": 1,
+      "minimum_block_length": 6,
+      "maximum_block_length": 16,
+      "intercept": 0.12248430424741875,
+      "coefficients_descending": [
+        0.18449154348335908,
+        0.12248430424741875
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "critical_time_shift",
+      "degree": 2,
+      "minimum_block_length": 4,
+      "maximum_block_length": 16,
+      "intercept": 0.11404715019146107,
+      "coefficients_descending": [
+        -0.7509547670711306,
+        0.3513310718552555,
+        0.11404715019146107
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "critical_time_shift",
+      "degree": 2,
+      "minimum_block_length": 5,
+      "maximum_block_length": 16,
+      "intercept": 0.11122107869205569,
+      "coefficients_descending": [
+        -0.9797465988868038,
+        0.4053845320838714,
+        0.11122107869205569
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "critical_time_shift",
+      "degree": 2,
+      "minimum_block_length": 6,
+      "maximum_block_length": 16,
+      "intercept": 0.10974936912315228,
+      "coefficients_descending": [
+        -1.1254086373982306,
+        0.4359605291795822,
+        0.10974936912315228
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 1,
+      "minimum_block_length": 4,
+      "maximum_block_length": 16,
+      "intercept": 0.09473419918579659,
+      "coefficients_descending": [
+        0.3442500853460516,
+        0.09473419918579659
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 1,
+      "minimum_block_length": 5,
+      "maximum_block_length": 16,
+      "intercept": 0.09536748683187657,
+      "coefficients_descending": [
+        0.33765993023505303,
+        0.09536748683187657
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 1,
+      "minimum_block_length": 6,
+      "maximum_block_length": 16,
+      "intercept": 0.09668156093519277,
+      "coefficients_descending": [
+        0.32298655190300024,
+        0.09668156093519277
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 2,
+      "minimum_block_length": 4,
+      "maximum_block_length": 16,
+      "intercept": 0.09877940454226031,
+      "coefficients_descending": [
+        0.2219172344640944,
+        0.2782505095170273,
+        0.09877940454226031
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 2,
+      "minimum_block_length": 5,
+      "maximum_block_length": 16,
+      "intercept": 0.10112762747543043,
+      "coefficients_descending": [
+        0.41202361588601644,
+        0.23333672196680524,
+        0.10112762747543043
+      ]
+    },
+    {
+      "n_sites": 100,
+      "observable": "sign_cost_competing_at_physical",
+      "degree": 2,
+      "minimum_block_length": 6,
+      "maximum_block_length": 16,
+      "intercept": 0.09932465037376031,
+      "coefficients_descending": [
+        0.23357446697250756,
+        0.27079507909726264,
+        0.09932465037376031
+      ]
+    }
+  ],
+  "fit_status": "Sensitivity of finite-sequence polynomial fits; no statistical confidence or thermodynamic error bound."
+}

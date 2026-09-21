@@ -1,0 +1,12 @@
+{
+  "run_id": "dt0005_chi96",
+  "complete": true,
+  "start_tau": 0.0,
+  "last_tau": 0.66,
+  "elapsed_seconds_this_invocation": 2.17873704599333,
+  "actual_bonds": [
+    70,
+    72
+  ],
+  "analysis_elapsed_seconds": 0.9099557700101286
+}

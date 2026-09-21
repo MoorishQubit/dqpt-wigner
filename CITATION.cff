@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the associated manuscript and this software release."
+title: "Phase space anatomy of dynamical quantum phase transitions"
+type: software
+authors:
+  - family-names: Mzaouali
+    given-names: Zakaria
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/MoorishQubit/dqpt-wigner"
+abstract: >-
+  Exact and finite-size numerical tools that distinguish DQPT-I from DQPT-II
+  by information scale and decompose odd-dimensional Loschmidt return branches
+  into unsigned phase-space support and Wigner-sign costs.

@@ -1,0 +1,17 @@
+{
+  "options": {
+    "sizes": [
+      50
+    ],
+    "lengths": [
+      16
+    ],
+    "dt": 0.01,
+    "max_bond": 32,
+    "cutoff": 1e-09,
+    "root_tolerance": 2e-09,
+    "workspace_mib": 512,
+    "jobs": 1,
+    "out": "results/potts/blocks/refinement_step"
+  }
+}

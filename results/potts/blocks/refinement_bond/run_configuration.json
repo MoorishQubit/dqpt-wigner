@@ -1,0 +1,17 @@
+{
+  "options": {
+    "sizes": [
+      50
+    ],
+    "lengths": [
+      16
+    ],
+    "dt": 0.02,
+    "max_bond": 48,
+    "cutoff": 1e-10,
+    "root_tolerance": 2e-09,
+    "workspace_mib": 768,
+    "jobs": 1,
+    "out": "results/potts/blocks/refinement_bond"
+  }
+}

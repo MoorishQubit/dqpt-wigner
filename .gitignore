@@ -1,0 +1,29 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+.agents/
+.codex/
+.env
+.env.*
+!.env.example
+build/
+dist/
+
+# Local documents and working material.
+/manuscript/
+/validation/
+/local_archive/
+
+# Regenerated figures and independent numerical runs.
+/figures/
+/results/reproduced/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+.DS_Store

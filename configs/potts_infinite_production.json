@@ -1,0 +1,40 @@
+{
+  "output_dir": "build/reproduction/potts/infinite_chain/production",
+  "defaults": {
+    "model": "potts",
+    "field": 1.5,
+    "measure_start": 0.615,
+    "tmax": 0.64,
+    "cutoff": 1e-15,
+    "finite_cells": [
+      8,
+      32,
+      64,
+      128
+    ],
+    "evaluation_times": [
+      0.62,
+      0.625,
+      0.6275,
+      0.63,
+      0.635
+    ]
+  },
+  "runs": [
+    {
+      "run_id": "dt00025_chi128",
+      "dtau": 0.0025,
+      "max_bond": 128
+    },
+    {
+      "run_id": "dt000125_chi128",
+      "dtau": 0.00125,
+      "max_bond": 128
+    },
+    {
+      "run_id": "dt000125_chi256",
+      "dtau": 0.00125,
+      "max_bond": 256
+    }
+  ]
+}

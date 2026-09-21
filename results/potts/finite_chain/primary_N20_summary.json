@@ -1,0 +1,13 @@
+{
+  "label": "primary_N20",
+  "n_sites": 20,
+  "dt": 0.02,
+  "max_bond": 48,
+  "cutoff": 1e-10,
+  "individual_crossing": 0.5920566079988167,
+  "grouped_crossing": 0.5778582952299102,
+  "maximum_symmetry_relative_error": 3.0554554296879536e-13,
+  "maximum_norm_error": 1.2212453270876722e-14,
+  "maximum_cumulative_discarded_weight": 5.405501825276959e-18,
+  "trajectory": "primary_N20_trajectory.csv"
+}

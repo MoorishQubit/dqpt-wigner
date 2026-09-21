@@ -1,0 +1,125 @@
+{
+  "tau": 0.5145887092659477,
+  "block_length": 9,
+  "delta_definition": "initial 0 minus 1",
+  "competitor": "1",
+  "branches": {
+    "0": {
+      "probability": 0.004754062082173476,
+      "unsigned_weight": 0.004754062082173478,
+      "negative_mass": 0.0,
+      "physical_rate": 0.594306205688349,
+      "support_rate": 0.594306205688349,
+      "sign_cost": 0.0,
+      "surviving_fraction": 0.9999999999999997,
+      "zero_probability": false,
+      "zero_unsigned_weight": false,
+      "identity_A_minus_P_minus_2nu": 1.734723475976807e-18,
+      "wigner_signed_sum": 0.004754062082173478,
+      "signed_reconstruction_error": 1.734723475976807e-18,
+      "minimum_wigner": 3.940480572490773e-09,
+      "maximum_wigner": 4.5168228509144216e-05,
+      "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums"
+    },
+    "1": {
+      "probability": 0.0005019155376657272,
+      "unsigned_weight": 0.004754062089857512,
+      "negative_mass": 0.0021260732760958927,
+      "physical_rate": 0.8441198560100379,
+      "support_rate": 0.5943062055087591,
+      "sign_cost": 0.24981365050127882,
+      "surviving_fraction": 0.10557614271309833,
+      "zero_probability": false,
+      "zero_unsigned_weight": false,
+      "identity_A_minus_P_minus_2nu": -8.673617379884035e-19,
+      "wigner_signed_sum": 0.0005019155376657271,
+      "signed_reconstruction_error": -1.0842021724855044e-19,
+      "minimum_wigner": -2.143845028104263e-06,
+      "maximum_wigner": 6.956080551661611e-06,
+      "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums"
+    },
+    "2": {
+      "probability": 0.000501915537665711,
+      "unsigned_weight": 0.004754062089857527,
+      "negative_mass": 0.0021260732760959083,
+      "physical_rate": 0.8441198560100416,
+      "support_rate": 0.5943062055087587,
+      "sign_cost": 0.24981365050128287,
+      "surviving_fraction": 0.10557614271309461,
+      "zero_probability": false,
+      "zero_unsigned_weight": false,
+      "identity_A_minus_P_minus_2nu": -8.673617379884035e-19,
+      "wigner_signed_sum": 0.0005019155376657105,
+      "signed_reconstruction_error": -5.421010862427522e-19,
+      "minimum_wigner": -2.14384502810427e-06,
+      "maximum_wigner": 6.9560805516616035e-06,
+      "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums"
+    },
+    "1+2": {
+      "probability": 0.0010038310753314383,
+      "unsigned_weight": 0.009508124179715038,
+      "negative_mass": 0.004252146552191801,
+      "physical_rate": 0.7671035026144902,
+      "support_rate": 0.5172898521132094,
+      "sign_cost": 0.2498136505012808,
+      "surviving_fraction": 0.10557614271309648,
+      "zero_probability": false,
+      "zero_unsigned_weight": false,
+      "identity_A_minus_P_minus_2nu": -3.469446951953614e-18
+    }
+  },
+  "delta_r": -0.2498136503216889,
+  "delta_s": 1.7958989850797025e-10,
+  "delta_q": -0.24981365050127882,
+  "identity_delta_r_minus_s_minus_q": 2.7755575615628914e-17,
+  "independent_sector_symmetry": {
+    "probability_relative_error": 3.2185918063355814e-14,
+    "unsigned_weight_relative_error": 3.101589602134283e-15,
+    "negative_mass_relative_error": 7.343355217022648e-15
+  },
+  "n_sites": 50,
+  "kind": "unsigned",
+  "event_evaluation": "direct finite MPS evolved at refined root",
+  "dt": 0.02,
+  "J": 1.0,
+  "h": 1.5,
+  "requested_chi": 32,
+  "realized_chi": 22,
+  "cutoff": 1e-09,
+  "root_bracket": [
+    0.5,
+    0.52
+  ],
+  "root_tolerance_tau": 2e-09,
+  "root_iterations": [
+    {
+      "tau": 0.5,
+      "primitive_difference": 0.0005824382565402025
+    },
+    {
+      "tau": 0.52,
+      "primitive_difference": -0.0002018177007562542
+    },
+    {
+      "tau": 0.5148532695511304,
+      "primitive_difference": -9.980081730043451e-06
+    },
+    {
+      "tau": 0.5145900287854854,
+      "primitive_difference": -4.986021188632672e-08
+    },
+    {
+      "tau": 0.514588708265922,
+      "primitive_difference": 3.0098176555248823e-11
+    },
+    {
+      "tau": 0.5145887092659477,
+      "primitive_difference": -7.68403396467221e-12
+    }
+  ],
+  "mps_norm": 1.0000000000000047,
+  "cumulative_discarded_weight": 6.633513225471019e-16,
+  "checkpoint": "results/potts/events/potts_N50_ell9_1_unsigned_dt0.02_chi32.npz",
+  "checkpoint_sha256": "a81a31ee53ee1f2670eead709c7d8bf7cd957e14a74e2c9f013049f5e11db955",
+  "error_status": "Root tolerance and reconstruction errors measured; no rigorous dynamics error bound. dt/chi refinements must be compared separately."
+}

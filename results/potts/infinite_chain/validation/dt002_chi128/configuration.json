@@ -1,0 +1,23 @@
+{
+  "model": "potts",
+  "field": 1.5,
+  "cutoff": 1e-14,
+  "measure_start": 0.6,
+  "tmax": 0.66,
+  "finite_cells": [
+    8,
+    32,
+    64
+  ],
+  "evaluation_times": [
+    0.62,
+    0.625,
+    0.6275,
+    0.63,
+    0.635,
+    0.64
+  ],
+  "run_id": "dt002_chi128",
+  "dtau": 0.02,
+  "max_bond": 128
+}

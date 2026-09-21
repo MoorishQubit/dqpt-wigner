@@ -1,0 +1,96 @@
+{
+  "output_dir": "build/reproduction/potts/infinite_chain/validation",
+  "defaults": {
+    "model": "potts",
+    "field": 1.5,
+    "measure_start": 0.6,
+    "tmax": 0.66,
+    "cutoff": 1e-14,
+    "finite_cells": [
+      8,
+      32,
+      64
+    ],
+    "evaluation_times": [
+      0.62,
+      0.625,
+      0.6275,
+      0.63,
+      0.635,
+      0.64
+    ]
+  },
+  "runs": [
+    {
+      "run_id": "dt002_chi48_c12",
+      "dtau": 0.02,
+      "max_bond": 48,
+      "cutoff": 1e-12
+    },
+    {
+      "run_id": "dt001_chi48_c12",
+      "dtau": 0.01,
+      "max_bond": 48,
+      "cutoff": 1e-12
+    },
+    {
+      "run_id": "dt0005_chi48_c12",
+      "dtau": 0.005,
+      "max_bond": 48,
+      "cutoff": 1e-12
+    },
+    {
+      "run_id": "dt00025_chi48_c12",
+      "dtau": 0.0025,
+      "max_bond": 48,
+      "cutoff": 1e-12
+    },
+    {
+      "run_id": "dt0005_chi48",
+      "dtau": 0.005,
+      "max_bond": 48
+    },
+    {
+      "run_id": "dt0005_chi64",
+      "dtau": 0.005,
+      "max_bond": 64
+    },
+    {
+      "run_id": "dt0005_chi96",
+      "dtau": 0.005,
+      "max_bond": 96
+    },
+    {
+      "run_id": "dt0005_chi128",
+      "dtau": 0.005,
+      "max_bond": 128
+    },
+    {
+      "run_id": "dt002_chi128",
+      "dtau": 0.02,
+      "max_bond": 128
+    },
+    {
+      "run_id": "dt001_chi128",
+      "dtau": 0.01,
+      "max_bond": 128
+    },
+    {
+      "run_id": "dt00025_chi128",
+      "dtau": 0.0025,
+      "max_bond": 128
+    },
+    {
+      "run_id": "dt0005_chi128_c13",
+      "dtau": 0.005,
+      "max_bond": 128,
+      "cutoff": 1e-13
+    },
+    {
+      "run_id": "dt0005_chi128_c15",
+      "dtau": 0.005,
+      "max_bond": 128,
+      "cutoff": 1e-15
+    }
+  ]
+}

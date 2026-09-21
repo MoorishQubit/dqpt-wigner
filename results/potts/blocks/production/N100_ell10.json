@@ -1,0 +1,731 @@
+{
+  "n_sites": 100,
+  "block_length": 10,
+  "configuration": {
+    "sizes": [
+      50,
+      100
+    ],
+    "lengths": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "dt": 0.02,
+    "max_bond": 32,
+    "cutoff": 1e-09,
+    "root_tolerance": 2e-09,
+    "workspace_mib": 512,
+    "jobs": 2,
+    "out": "results/potts/blocks/production"
+  },
+  "physical": {
+    "tau": 0.5829693189394394,
+    "block_length": 10,
+    "delta_definition": "initial 0 minus 1+2",
+    "competitor": "1+2",
+    "branches": {
+      "0": {
+        "probability": 0.0017730494005593809,
+        "unsigned_weight": 0.0019072145162086314,
+        "negative_mass": 6.708255782462517e-05,
+        "physical_rate": 0.6335054389582577,
+        "support_rate": 0.62621114698551,
+        "sign_cost": 0.007294291972747757,
+        "surviving_fraction": 0.9296538934089289,
+        "zero_probability": false,
+        "zero_unsigned_weight": false,
+        "identity_A_minus_P_minus_2nu": 1.3552527156068805e-19,
+        "wigner_signed_sum": 0.001773049400559381,
+        "signed_reconstruction_error": 2.168404344971009e-19,
+        "minimum_wigner": -3.029772812247166e-07,
+        "maximum_wigner": 1.4060543515319928e-05,
+        "maximum_imaginary_residual": 5.034894655997357e-21,
+        "maximum_phase_point_expectation": 0.8302610340361265,
+        "method": "split_support_frontiers_chunked_scalar_join",
+        "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums",
+        "n_sites": 100,
+        "block_start": 45,
+        "block_length": 10,
+        "branch": 0,
+        "exact_cell_count": 59049,
+        "contracted_cell_count": 59049,
+        "checkpoint_mps_maximum_bond": 28,
+        "split_after_sites": 5,
+        "split_bond_dimension": 28,
+        "block_tensor_shapes": [
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ]
+        ],
+        "state_norm": 0.99999999999995,
+        "frontier_bytes": 6096384,
+        "estimated_workspace_bytes": 13451184,
+        "max_workspace_bytes": 536870912,
+        "row_batch": 243,
+        "column_batch": 243,
+        "workspace_excludes": "input state and BLAS-private workspace",
+        "elapsed_seconds": 0.04657410900108516,
+        "scope": "finite_reduced_block_of_fixed_finite_open_MPS",
+        "rigorous_certificate": false
+      },
+      "1": {
+        "probability": 0.0008865247002790298,
+        "unsigned_weight": 0.003211391997799862,
+        "negative_mass": 0.00116243364876041,
+        "physical_rate": 0.7028201570143268,
+        "support_rate": 0.5741050791662262,
+        "sign_cost": 0.12871507784810055,
+        "surviving_fraction": 0.2760562089232307,
+        "zero_probability": false,
+        "zero_unsigned_weight": false,
+        "identity_A_minus_P_minus_2nu": 1.214306433183765e-17,
+        "wigner_signed_sum": 0.0008865247002790311,
+        "signed_reconstruction_error": 1.3010426069826053e-18,
+        "minimum_wigner": -6.255999102967529e-07,
+        "maximum_wigner": 2.5942014782665966e-06,
+        "maximum_imaginary_residual": 4.663932465596868e-21,
+        "maximum_phase_point_expectation": 0.15318500309016425,
+        "method": "split_support_frontiers_chunked_scalar_join",
+        "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums",
+        "n_sites": 100,
+        "block_start": 45,
+        "block_length": 10,
+        "branch": 1,
+        "exact_cell_count": 59049,
+        "contracted_cell_count": 59049,
+        "checkpoint_mps_maximum_bond": 28,
+        "split_after_sites": 5,
+        "split_bond_dimension": 28,
+        "block_tensor_shapes": [
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ]
+        ],
+        "state_norm": 0.99999999999995,
+        "frontier_bytes": 6096384,
+        "estimated_workspace_bytes": 13451184,
+        "max_workspace_bytes": 536870912,
+        "row_batch": 243,
+        "column_batch": 243,
+        "workspace_excludes": "input state and BLAS-private workspace",
+        "elapsed_seconds": 0.04705884899885859,
+        "scope": "finite_reduced_block_of_fixed_finite_open_MPS",
+        "rigorous_certificate": false
+      },
+      "2": {
+        "probability": 0.000886524700279063,
+        "unsigned_weight": 0.0032113919977998766,
+        "negative_mass": 0.0011624336487603987,
+        "physical_rate": 0.7028201570143231,
+        "support_rate": 0.5741050791662258,
+        "sign_cost": 0.12871507784809727,
+        "surviving_fraction": 0.27605620892323973,
+        "zero_probability": false,
+        "zero_unsigned_weight": false,
+        "identity_A_minus_P_minus_2nu": 1.6046192152785466e-17,
+        "wigner_signed_sum": 0.000886524700279064,
+        "signed_reconstruction_error": 9.75781955236954e-19,
+        "minimum_wigner": -6.255999102967525e-07,
+        "maximum_wigner": 2.594201478266598e-06,
+        "maximum_imaginary_residual": 2.4023132995120056e-21,
+        "maximum_phase_point_expectation": 0.15318500309016433,
+        "method": "split_support_frontiers_chunked_scalar_join",
+        "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums",
+        "n_sites": 100,
+        "block_start": 45,
+        "block_length": 10,
+        "branch": 2,
+        "exact_cell_count": 59049,
+        "contracted_cell_count": 59049,
+        "checkpoint_mps_maximum_bond": 28,
+        "split_after_sites": 5,
+        "split_bond_dimension": 28,
+        "block_tensor_shapes": [
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ],
+          [
+            27,
+            3,
+            28
+          ],
+          [
+            28,
+            3,
+            27
+          ]
+        ],
+        "state_norm": 0.99999999999995,
+        "frontier_bytes": 6096384,
+        "estimated_workspace_bytes": 13451184,
+        "max_workspace_bytes": 536870912,
+        "row_batch": 243,
+        "column_batch": 243,
+        "workspace_excludes": "input state and BLAS-private workspace",
+        "elapsed_seconds": 0.04686576599488035,
+        "scope": "finite_reduced_block_of_fixed_finite_open_MPS",
+        "rigorous_certificate": false
+      },
+      "1+2": {
+        "probability": 0.0017730494005580928,
+        "unsigned_weight": 0.0064227839955997386,
+        "negative_mass": 0.0023248672975208088,
+        "physical_rate": 0.6335054389583303,
+        "support_rate": 0.5047903611102316,
+        "sign_cost": 0.12871507784809885,
+        "surviving_fraction": 0.27605620892323524,
+        "zero_probability": false,
+        "zero_unsigned_weight": false,
+        "identity_A_minus_P_minus_2nu": 2.7755575615628914e-17
+      }
+    },
+    "delta_r": -7.260858581048524e-14,
+    "delta_s": 0.12142078587527838,
+    "delta_q": -0.1214207858753511,
+    "identity_delta_r_minus_s_minus_q": 1.1102230246251565e-16,
+    "independent_sector_symmetry": {
+      "probability_relative_error": 3.742319471483832e-14,
+      "unsigned_weight_relative_error": 4.591513448344142e-15,
+      "negative_mass_relative_error": 9.700082758162951e-15
+    },
+    "n_sites": 100,
+    "block_start": 45,
+    "kind": "physical",
+    "root_bracket": [
+      0.5,
+      0.66
+    ],
+    "root_evaluations": [
+      {
+        "tau": 0.5,
+        "normalized_primitive_difference": 0.8140181036475868
+      },
+      {
+        "tau": 0.66,
+        "normalized_primitive_difference": -0.6647965132065489
+      },
+      {
+        "tau": 0.5880724974579153,
+        "normalized_primitive_difference": -0.05908945322570703
+      },
+      {
+        "tau": 0.581530526178257,
+        "normalized_primitive_difference": 0.01686484053824429
+      },
+      {
+        "tau": 0.5829831011015403,
+        "normalized_primitive_difference": -0.0001611606783755718
+      },
+      {
+        "tau": 0.5829693516628407,
+        "normalized_primitive_difference": -3.8265729940719426e-07
+      },
+      {
+        "tau": 0.5829693189394394,
+        "normalized_primitive_difference": 3.632251251732988e-13
+      },
+      {
+        "tau": 0.5829693199394685,
+        "normalized_primitive_difference": -1.1693680963455309e-08
+      }
+    ],
+    "normalized_primitive_residual": 3.632251251732988e-13,
+    "mps_norm": 0.99999999999995,
+    "realized_maximum_bond": 28,
+    "cumulative_discarded_weight": 1.8794424188541227e-15,
+    "checkpoint": "results/potts/blocks/production/N100_ell10_physical.npz",
+    "checkpoint_sha256": "35eedba41101f3cd19cd9136a076143da1a9a842e24185cc72b195eec7b47a82"
+  },
+  "unsigned": {
+    "tau": 0.44076162483922565,
+    "block_length": 10,
+    "delta_definition": "initial 0 minus 1+2",
+    "competitor": "1+2",
+    "branches": {
+      "0": {
+        "probability": 0.004736207836108764,
+        "unsigned_weight": 0.004736207836108761,
+        "negative_mass": 0.0,
+        "physical_rate": 0.5352518498049814,
+        "support_rate": 0.5352518498049815,
+        "sign_cost": -8.881784197001253e-17,
+        "surviving_fraction": 1.0000000000000004,
+        "zero_probability": false,
+        "zero_unsigned_weight": false,
+        "identity_A_minus_P_minus_2nu": -2.6020852139652106e-18,
+        "wigner_signed_sum": 0.004736207836108761,
+        "signed_reconstruction_error": -2.6020852139652106e-18,
+        "minimum_wigner": 6.385372387537645e-09,
+        "maximum_wigner": 1.5919153880858825e-05,
+        "maximum_imaginary_residual": 4.4637072896571595e-21,
+        "maximum_phase_point_expectation": 0.9400101175108327,
+        "method": "split_support_frontiers_chunked_scalar_join",
+        "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums",
+        "n_sites": 100,
+        "block_start": 45,
+        "block_length": 10,
+        "branch": 0,
+        "exact_cell_count": 59049,
+        "contracted_cell_count": 59049,
+        "checkpoint_mps_maximum_bond": 18,
+        "split_after_sites": 5,
+        "split_bond_dimension": 18,
+        "block_tensor_shapes": [
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ]
+        ],
+        "state_norm": 0.9999999999999944,
+        "frontier_bytes": 2519424,
+        "estimated_workspace_bytes": 5500208,
+        "max_workspace_bytes": 536870912,
+        "row_batch": 243,
+        "column_batch": 243,
+        "workspace_excludes": "input state and BLAS-private workspace",
+        "elapsed_seconds": 0.025282594011514448,
+        "scope": "finite_reduced_block_of_fixed_finite_open_MPS",
+        "rigorous_certificate": false
+      },
+      "1": {
+        "probability": 2.695060909215698e-05,
+        "unsigned_weight": 0.0023681039198521557,
+        "negative_mass": 0.0011705766553800135,
+        "physical_rate": 1.052150466004251,
+        "support_rate": 0.6045665677850598,
+        "sign_cost": 0.4475838982191913,
+        "surviving_fraction": 0.011380669938606218,
+        "zero_probability": false,
+        "zero_unsigned_weight": false,
+        "identity_A_minus_P_minus_2nu": -2.8189256484623115e-17,
+        "wigner_signed_sum": 2.695060909215703e-05,
+        "signed_reconstruction_error": 5.082197683525802e-20,
+        "minimum_wigner": -4.29089777061501e-07,
+        "maximum_wigner": 7.631129008919088e-07,
+        "maximum_imaginary_residual": 2.0351887906143257e-21,
+        "maximum_phase_point_expectation": 0.045061053684766324,
+        "method": "split_support_frontiers_chunked_scalar_join",
+        "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums",
+        "n_sites": 100,
+        "block_start": 45,
+        "block_length": 10,
+        "branch": 1,
+        "exact_cell_count": 59049,
+        "contracted_cell_count": 59049,
+        "checkpoint_mps_maximum_bond": 18,
+        "split_after_sites": 5,
+        "split_bond_dimension": 18,
+        "block_tensor_shapes": [
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ]
+        ],
+        "state_norm": 0.9999999999999944,
+        "frontier_bytes": 2519424,
+        "estimated_workspace_bytes": 5500208,
+        "max_workspace_bytes": 536870912,
+        "row_batch": 243,
+        "column_batch": 243,
+        "workspace_excludes": "input state and BLAS-private workspace",
+        "elapsed_seconds": 0.025266819007811137,
+        "scope": "finite_reduced_block_of_fixed_finite_open_MPS",
+        "rigorous_certificate": false
+      },
+      "2": {
+        "probability": 2.6950609092158574e-05,
+        "unsigned_weight": 0.0023681039198521544,
+        "negative_mass": 0.0011705766553799957,
+        "physical_rate": 1.0521504660042453,
+        "support_rate": 0.6045665677850599,
+        "sign_cost": 0.44758389821918537,
+        "surviving_fraction": 0.011380669938606898,
+        "zero_probability": false,
+        "zero_unsigned_weight": false,
+        "identity_A_minus_P_minus_2nu": 4.336808689942018e-18,
+        "wigner_signed_sum": 2.6950609092158534e-05,
+        "signed_reconstruction_error": -4.0657581468206416e-20,
+        "minimum_wigner": -4.2908977706150007e-07,
+        "maximum_wigner": 7.631129008919111e-07,
+        "maximum_imaginary_residual": 1.4179383023022233e-21,
+        "maximum_phase_point_expectation": 0.04506105368476646,
+        "method": "split_support_frontiers_chunked_scalar_join",
+        "primitive_source": "independent positive projector; fully contracted Wigner absolute and negative cell sums",
+        "n_sites": 100,
+        "block_start": 45,
+        "block_length": 10,
+        "branch": 2,
+        "exact_cell_count": 59049,
+        "contracted_cell_count": 59049,
+        "checkpoint_mps_maximum_bond": 18,
+        "split_after_sites": 5,
+        "split_bond_dimension": 18,
+        "block_tensor_shapes": [
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ],
+          [
+            16,
+            3,
+            18
+          ],
+          [
+            18,
+            3,
+            16
+          ]
+        ],
+        "state_norm": 0.9999999999999944,
+        "frontier_bytes": 2519424,
+        "estimated_workspace_bytes": 5500208,
+        "max_workspace_bytes": 536870912,
+        "row_batch": 243,
+        "column_batch": 243,
+        "workspace_excludes": "input state and BLAS-private workspace",
+        "elapsed_seconds": 0.025547772995196283,
+        "scope": "finite_reduced_block_of_fixed_finite_open_MPS",
+        "rigorous_certificate": false
+      },
+      "1+2": {
+        "probability": 5.3901218184315556e-05,
+        "unsigned_weight": 0.0047362078397043105,
+        "negative_mass": 0.002341153310760009,
+        "physical_rate": 0.9828357479482536,
+        "support_rate": 0.5352518497290653,
+        "sign_cost": 0.4475838982191883,
+        "surviving_fraction": 0.011380669938606558,
+        "zero_probability": false,
+        "zero_unsigned_weight": false,
+        "identity_A_minus_P_minus_2nu": -2.3418766925686896e-17
+      }
+    },
+    "delta_r": -0.44758389814327215,
+    "delta_s": 7.591627326775097e-11,
+    "delta_q": -0.4475838982191884,
+    "identity_delta_r_minus_s_minus_q": 0.0,
+    "independent_sector_symmetry": {
+      "probability_relative_error": 5.921239357411995e-14,
+      "unsigned_weight_relative_error": 5.494026660214437e-16,
+      "negative_mass_relative_error": 1.5189877183216208e-14
+    },
+    "n_sites": 100,
+    "block_start": 45,
+    "kind": "unsigned",
+    "root_bracket": [
+      0.4093101845033507,
+      0.4743101845033507
+    ],
+    "root_evaluations": [
+      {
+        "tau": 0.4093101845033507,
+        "normalized_primitive_difference": 0.2094404760554186
+      },
+      {
+        "tau": 0.4743101845033507,
+        "normalized_primitive_difference": -0.1625081522591918
+      },
+      {
+        "tau": 0.44591102103631197,
+        "normalized_primitive_difference": -0.027499440561551337
+      },
+      {
+        "tau": 0.4407978537894464,
+        "normalized_primitive_difference": -0.00019942045668236547
+      },
+      {
+        "tau": 0.4407613618575251,
+        "normalized_primitive_difference": 1.4475697059284036e-06
+      },
+      {
+        "tau": 0.44076162483922565,
+        "normalized_primitive_difference": -3.795809743751876e-10
+      },
+      {
+        "tau": 0.4407616238392036,
+        "normalized_primitive_difference": 5.126426127750057e-09
+      }
+    ],
+    "normalized_primitive_residual": -3.795809743751876e-10,
+    "mps_norm": 0.9999999999999944,
+    "realized_maximum_bond": 18,
+    "cumulative_discarded_weight": 8.585817936483935e-16,
+    "checkpoint": "results/potts/blocks/production/N100_ell10_unsigned.npz",
+    "checkpoint_sha256": "8a2a31eb2aa055a833664ef2d666e3be9b190f4cb4ded77396119a333d120943"
+  },
+  "critical_time_shift": 0.14220769410021372,
+  "elapsed_seconds": 2.8827746199967805,
+  "scope": "finite central block in an independently evolved finite open chain",
+  "event_method": "direct fractional-step TEBD replay; grouped competitor 1+2",
+  "error_status": "Root and contraction checks do not bound evolution or extrapolation error."
+}

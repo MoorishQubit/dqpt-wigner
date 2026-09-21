@@ -1,0 +1,15 @@
+{
+  "scope": "Paper and active supplementary results",
+  "python": "3.12.7",
+  "scientific_tests_passed": 58,
+  "data_and_configuration_checksums_verified": 230,
+  "main_figures": 3,
+  "supplementary_figures": 3,
+  "supplementary_tables": 3,
+  "figure_pixels_match_publication_inputs": true,
+  "table_bodies_match_publication_inputs": true,
+  "signed_infinite_chain_runs_recomputed": 16,
+  "maximum_recomputed_signed_root_difference": 0.0,
+  "retained_source_files_checked_for_numerical_preservation": 221,
+  "full_length_16_campaign_rerun": false
+}

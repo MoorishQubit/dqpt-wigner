@@ -1,0 +1,25 @@
+output_dir: build/reproduction/ising
+model:
+  J: 1.0
+  normalization: H=-(2J/N)Sz^2-2hSx
+branch_dynamics:
+  sizes:
+  - 400
+  final_fields:
+  - 0.7
+  tmax: 8.0
+  points: 2001
+mean_field_dqpt_i:
+  field_min: 0.1
+  field_max: 1.0
+  field_count: 46
+  tmax: 100.0
+  points: 5001
+  average_start: 60.0
+plots:
+  enabled: true
+  formats:
+  - png
+  - pdf
+  dpi: 300
+  requested_font: Times New Roman

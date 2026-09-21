@@ -1,0 +1,16 @@
+{
+  "number_of_blocks": 1,
+  "sizes": [
+    50
+  ],
+  "block_lengths": [
+    16
+  ],
+  "maximum_norm_error": 3.774758283725532e-15,
+  "maximum_event_rate_residual": 3.460451925008101e-10,
+  "maximum_projector_vs_wigner_error": 1.0842021724855044e-19,
+  "maximum_sector_unsigned_relative_error": 6.740451783490757e-15,
+  "code_unchanged_during_run": true,
+  "fits": [],
+  "fit_status": "Sensitivity of finite-sequence polynomial fits; no statistical confidence or thermodynamic error bound."
+}
